@@ -5,6 +5,6 @@
 layout: home
 title: posts
 nav_order: 2
-permalink: /HCDE498/
+permalink:
 ---
 
