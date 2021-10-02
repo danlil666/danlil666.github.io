@@ -31,7 +31,9 @@ url: "https://danlil666.github.io/hcde498" # the base hostname & protocol for yo
 twitter_username: danli1uo
 github_username:  danlil666
 # Build settings
+# See https://pmarsceill.github.io/just-the-docs/
 theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 
