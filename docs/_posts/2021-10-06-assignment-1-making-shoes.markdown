@@ -6,7 +6,7 @@ parent: "posts"
 ---
 Shoemaking has been a skill I wanted to learn in combination with leathercraft. To be exact, I meant something like this:
 
-![shoemaking]({{https://danlil666.github.io/}}assets/images/project1_shoemaking.jpg)
+![shoemaking]({{https://danlil666.github.io}}/assets/images/project1_shoemaking.jpg)
 
 The full video from which this screen shot is taken can be found [here](https://www.bilibili.com/video/BV1vK4y1v76u/).
 
@@ -28,15 +28,15 @@ Then I need to decide which material to use. I only have limited resources that 
 
 Shoe patterning is no joke. We are all once troubled by poorly designed shoes. I would love to invest into the patterning of a proper shoe, but I decided to first replicate the sole shape on my favorite - Converse Chuck Taylor in women size 7.
 
-![figure1]({{https://danlil666.github.io/}}assets/images/project1_1.jpg)
+![figure1]({{https://danlil666.github.io}}/assets/images/project1_1.jpg)
 
 A lot of learning experience I earned was by replicating the state-of-the-art first. I traced the outline of the sole in this view using Rhinoceros. Then, the triangular auxetic pattern was arrayed over the area that I determined to be the most prone to deformation during daily exercise and wearing on the sole. I used a sophisticated sensor array which was layered inside my carefully cushioned trainers and ran on a treadmill for three 10-minute periods to record a bunch of pressure maps which were later analyzed by some sort of machine learning algorithm... *No* this didn't happen. I bent my Chuck for a while and massage my foot for a minute to realize that both ends on the sole do not deform that much. As a result, I overlaid the pattern over the middle portion of the sole. I *modeled* two different patterns, yet I didn't compare how different they are.
 
-![figure2]({{https://danlil666.github.io/}}assets/images/project1_2.jpg)
+![figure2]({{https://danlil666.github.io}}/assets/images/project1_2.jpg)
 
 Inspired by the [tutorial video above](https://www.bilibili.com/video/BV1vK4y1v76u/), the outline of the upper in a form of a flattened 2D sheet was organically developed. The only criterion in the design is that the outer circumference of the upper matched the circumference of the sole. The upper will be laser-cut from a piece of cloth and the lower will be 3D printed with PLA. The figure below shows two different version as laser cutting is so rapid that it allows one iteration (although it eventually took a whole chunk of my time adapting to using the specific laser cutter).
 
-![figure3]({{https://danlil666.github.io/}}assets/images/project1_3.jpg)
+![figure3]({{https://danlil666.github.io/}}/assets/images/project1_3.jpg)
 
 ## Making
 
