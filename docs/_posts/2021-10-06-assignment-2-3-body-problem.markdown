@@ -42,9 +42,7 @@ Now that the material composition is decided, here comes the exciting part - mak
 
 Another reason for using yarn over loose wool, although the crafting technique is felting, is this [3D printing Teddy Bear](https://dl.acm.org/doi/abs/10.1145/2556288.2557338).
 
-![3dprintingteddybear](https://i.ytimg.com/vi/YhXIWyfI7Cw/maxresdefault.jpg)
-
-[Watch the video here.](https://youtu.be/YhXIWyfI7Cw)
+[![3dprintingteddybear](https://i.ytimg.com/vi/YhXIWyfI7Cw/maxresdefault.jpg)](https://youtu.be/YhXIWyfI7Cw "3dprintingteddybear")
 
 The felted yarn symbolizes entanglement, yet the sanity of the machine guarantees order. I shaped the sensor in a fashion that is similar to this machine - layering yarns in a path and felting along the way. Eventually, there are two layers of yarn patterned as grid to enhance entanglement and an extra layer on top to conceal the conductive yarn.
 
