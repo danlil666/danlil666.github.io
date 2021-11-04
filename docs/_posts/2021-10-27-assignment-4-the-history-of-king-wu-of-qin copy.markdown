@@ -36,6 +36,6 @@ Vacuum when one job is finished. Use *load material* to retrieve the board but *
 
 My first milled PCB! The depth of the trace cut is deeper than the set value by about 0.2 mm, which is probably the combined error of thickness measurements.
 
-![board](https://danlil666.github.io/files/project5/board.jpg)
+![board](https://danlil666.github.io/files/project5/board.gif)
 
 Looking forward to the soldering that comes next.
