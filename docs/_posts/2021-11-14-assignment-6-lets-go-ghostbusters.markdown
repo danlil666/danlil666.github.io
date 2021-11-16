@@ -21,9 +21,9 @@ These pins will be pin 10 and pin 11 as shown in the schematics.
 
 I made a test board to justify my soldering skill. And apparantly the first one, like pancakes, is always a throw-away. Nadya helped me figure out there is a 1000 Ohms resistance between ground and VCC, meaning the board is shorted somewhere. That's the first problem.
 
-Second problem - I soldered 10K resistors in place of 1K resistors as pull-down resistor for LEDs.
+Second problem - I soldered 10K resistors in place of 1K resistors as current-limiting resistor for LEDs.
 
-Third problem - I soldered the wrong regulator. The pull-down resistor is calculated based on a 5V VCC.
+Third problem - I soldered the wrong regulator. The current-limiting resistor is calculated based on a 5V VCC.
 
 These problems were fixed in the next and final PCB fabrication.
 
