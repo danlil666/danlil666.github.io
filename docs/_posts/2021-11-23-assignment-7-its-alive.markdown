@@ -13,9 +13,7 @@ This week's reading was a big [Peek](http://infosyncratic.nl/) show and we read 
 
 I've been wanting to make a Jansen walker so I decided to go with that.
 
-The internet is full of different designs but I should be aware that a lot of them was just simulation. A few of them actually made a robot:
-
-![3dwjansenwalker](https://youtu.be/rpPxQvCseI4)
+The internet is full of different designs but I should be aware that a lot of them was just simulation. [A few of them actually made a robot](https://youtu.be/rpPxQvCseI4).
 
 
 ## Pattern design
@@ -30,21 +28,21 @@ Then I trace it in Rhino to get the pattern for laser-cutting with cardboard.
 
 There are other parts that I modeled in Rhino and 3D printed on a Prusa printer.
 
-![models](https://danlil666.github.io/files/project7/models.jpeg)
+![models](https://danlil666.github.io/files/project7/models.jpg)
 
 ## Making the board
 
 I spotted a mistake in the capacitive sensing I added to last week's board and I corrected it.
 
-![schematics](https://danlil666.github.io/files/project7/schematics.jpeg)
+![schematics](https://danlil666.github.io/files/project7/schematics.jpg)
 
 I milled one test board to test which has only one motor. It worked and I milled two other boards with two motors. It's ***always*** a good idea to have spare!
 
-![milling](https://danlil666.github.io/files/project7/milling.jpeg)
+![milling](https://danlil666.github.io/files/project7/milling.jpg)
 
 I toasted the test board and saw the magic smoke. It was a magical moment indeed. I also realize, after looking at the board Gabrielle's and Blair's board, that I should have soldered the pins with the shorter leg sticking out the front of the board and connect to pluggable components from the other side. I ripped my traces by soldering in the way shown below - very sad, otherwise my board would have last forever.
 
-![boards](https://danlil666.github.io/files/project7/boards.jpeg)
+![boards](https://danlil666.github.io/files/project7/boards.jpg)
 
 The fixed capacitive touch sensing works better than the previous version now. Very sensitive!
 
@@ -58,19 +56,19 @@ I assembled a Jansen linkage system to test. Later I realize this is bigger than
 
 My 3D-printed part holds two continuous servo motors. [The microcontroller connection setup I used for last assignment](https://danlil666.github.io/2021/11/14/assignment-6-lets-go-ghostbusters.html) actually wouldn't work because of... outdated microcontroller support? The internet tells me to use ATTinyCore. You can have it by adding this link to your board manager: http://drazzy.com/package_drazzy.com_index.json
 
-![microcontroller](https://danlil666.github.io/files/project7/microcontroller.jpeg)
+![microcontroller](https://danlil666.github.io/files/project7/microcontroller.jpg)
 
 I assembled V1 with 4 legs:
 
-![4legs](https://danlil666.github.io/files/project7/4legs.jpeg)
+![4legs](https://danlil666.github.io/files/project7/4legs.jpg)
 
 And I immediately realized that it's not good at keeping itself balanced with two diagonal legs touching the ground all the time. An easy way to solve this is... to add training wheels!
 
-![trainingwheels](https://danlil666.github.io/files/project7/trainingwheels.jpeg)
+![trainingwheels](https://danlil666.github.io/files/project7/trainingwheels.jpg)
 
 That will be my backup. I still have some time at this point so I decided to add more legs to help with balancing like in the video from the top of this post. This 4-legged Jansen walker wears boots because the tippy toes is very fragile, and this is also fixed in the next design.
 
-![8legs](https://danlil666.github.io/files/project7/8legs.jpeg)
+![8legs](https://danlil666.github.io/files/project7/8legs.jpg)
 
 ### Demosssss!
 
