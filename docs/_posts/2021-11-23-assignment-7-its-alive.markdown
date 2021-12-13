@@ -40,7 +40,7 @@ I milled one test board to test which has only one motor. It worked and I milled
 
 ![milling](https://danlil666.github.io/files/project7/milling.jpg)
 
-I toasted the test board and saw the magic smoke. It was a magical moment indeed. I also realize, after looking at the board Gabrielle's and Blair's board, that I should have soldered the pins with the shorter leg sticking out the front of the board and connect to pluggable components from the other side. I ripped my traces by soldering in the way shown below - very sad, otherwise my board would have last forever.
+I toasted the test board and saw the magic smoke. It was a magical moment indeed. I also realize, after looking at Gabrielle's and Blair's board, that I should have soldered the pins with the shorter leg sticking out the front of the board and connect to pluggable components from the other side. I ripped my traces by soldering in the way shown below - very sad, otherwise my board would have last forever.
 
 ![boards](https://danlil666.github.io/files/project7/boards.jpg)
 
