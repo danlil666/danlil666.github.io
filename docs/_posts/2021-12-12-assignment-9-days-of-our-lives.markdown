@@ -37,7 +37,7 @@ ATtiny44 as the microprocessor
 
 [DS1307 real time clock breakout](https://www.adafruit.com/product/3296?gclid=Cj0KCQiA2NaNBhDvARIsAEw55hgeGlCrhw7ZdfsAjVA-Pceg2CtASP0N7iljr9qJpMrxXkr2asqZGzQaAlj-EALw_wcB)
 
-(Adafruit NeoPixel strip, 60 LEDs per meter)[https://www.adafruit.com/product/1138?length=1]
+[Adafruit NeoPixel strip, 60 LEDs per meter](https://www.adafruit.com/product/1138?length=1)
 
 (optional) [Analog light sensor breakout](https://www.adafruit.com/product/2748)
 
@@ -47,7 +47,7 @@ FTDI Serial TTL-232 USB Cable for serial communication (not necessary for the pr
 
 AVR-ISP mkII programmer or [Arduino as programmer](https://danlil666.github.io/2021/11/14/assignment-6-lets-go-ghostbusters.html)
 
-Cardboard or foamboard as casing (I use foamboard as [spacer between the clock face and the LED layer](https://danlil666.github.io/files/projectf/L_block_x2_foam.dxf), and a [backing that also hold the LEDs](https://danlil666.github.io/files/projectf/L_back_card.dxf). The number of layers required depends on the thickness of the materials.)
+Cardboard or foamboard as casing (I use foamboard as [spacer between the clock face and the LED layer](https://danlil666.github.io/files/projectf/L_block_x2_foam.dxf), and a [backing that also holds the LEDs](https://danlil666.github.io/files/projectf/L_back_card.dxf). The number of layers required depends on the thickness of the materials.)
 
 [Firmware](https://danlil666.github.io/files/projectf/wordClock_Chinese.ino)
 
@@ -127,13 +127,13 @@ I also soldered the real time clock breakout board.
 
 ![assembled](https://danlil666.github.io/files/projectf/assembled.jpg)
 
-I assembled the spacer layers and the backing and screwed everything together. If you check from the mapping, this clock, at its first fully assembled and working moment, shows '1 quarter past 12'. Since the time is not exactly accurate, a quarter past 12 covers 12:15 to 12:29. The LED beneath 'hour' was not lighting up. In Chinese, when we express time, we always include 'hour'. After changing the firmware to light up 'hour' whenever the clock is touched, it was exactly 12:30 and I have something to show.
+I assembled the spacer layers and the backing and screwed everything together. If you check from the mapping, this clock, at its first fully assembled and working moment, shows '1 quarter past 12'. Since the time is not exactly accurate, a quarter past 12 covers 12:15 to 12:29. The LED beneath 'hour' was not lighting up. In Chinese, when we express time, we always include 'hour'. After changing the firmware to light up 'hour' whenever the clock is touched, it was exactly 12:30 for our final presentation and I have something to show.
 
 ![1stfullassembly](https://danlil666.github.io/files/projectf/1stfullassembly.jpg)
 
 ### Demosssss!
 
-During class presentation, my peers and my instructor suggested that I add a layer of something, as simple as white paper, to diffuse the light a little bit. I also caught some small bugs that only showed up when the time has come (for example, I mapped '5' and 6' to the wrong pixel indeces and I can only find out about that at 5 or 6). The current version has fixed all that!
+During class presentation, my peers and my instructor suggested that I add a layer of something, as simple as white paper, to diffuse the light a little bit. I also caught some small bugs that only showed up when the time has come (for example, I mapped '5' and 6' to the wrong pixel indeces and I can only find out about that at 5 or 6 AM/PM). The current version has fixed all that!
 
 ![demo](https://danlil666.github.io/files/projectf/demo.gif)
 
