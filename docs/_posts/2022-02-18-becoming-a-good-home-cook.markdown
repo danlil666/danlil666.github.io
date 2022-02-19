@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "becoming a good home cook"
-date:   2022-02-18 12:52PM
+date:   2022-02-18 11:08PM
 parent: "posts"
 ---
 
