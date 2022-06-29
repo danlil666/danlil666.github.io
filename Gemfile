@@ -3,4 +3,3 @@ gemspec
 
 gem "webrick", "~> 1.7"
 gem "kramdown-parser-gfm"
-gem "just-the-docs"
