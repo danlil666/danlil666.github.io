@@ -2,7 +2,7 @@
 layout: page
 title: about
 nav_order: 3
-permalink: /about/
+permalink:
 ---
 
 Hi! I am Danli.
