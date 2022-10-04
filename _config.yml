@@ -17,7 +17,7 @@
 
 email: danlil@uw.edu
 description: Documentation of Danli's work as a student at University of Washington
-# baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "https://danlil666.github.io/docs" # the subpath of your site, e.g. /blog
 url: "https://danlil666.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
@@ -25,7 +25,7 @@ permalink: pretty
 # , "docs/tests/"
 # ]
 theme: "just-the-docs"
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
 
 # Regression tests
 # By default, the pages in /docs/tests are excluded when the ste is built.

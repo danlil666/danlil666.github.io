@@ -2,14 +2,14 @@
     "doc": "about",
     "title": "about",
     "content": "Hi! I am Danli. I am a first-year PhD in HCDE, University of Washington. I work at the intersection of materials intelligence and natures capacity. You can find my research work here: . I’m learning how to use jekyll, which this website is built upon. ",
-    "url": "http://localhost:4000/about/",
-    "relUrl": "/about/"
+    "url": "http://localhost:4000/docs/about/",
+    "relUrl": "/docs/about/"
   },"1": {
     "doc": "contact",
     "title": "contact",
     "content": "e-mail: danlil at uw dot edu . ",
-    "url": "http://localhost:4000/contact/",
-    "relUrl": "/contact/"
+    "url": "http://localhost:4000/docs/contact/",
+    "relUrl": "/docs/contact/"
   },"2": {
     "doc": "home",
     "title": "home",
