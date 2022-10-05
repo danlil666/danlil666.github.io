@@ -254,8 +254,8 @@
     "doc": "HCDE533",
     "title": "HCDE533",
     "content": " ",
-    "url": "http://localhost:4000/docs/HCDE533/HCDE533/",
-    "relUrl": "/docs/HCDE533/HCDE533/"
+    "url": "http://localhost:4000/docs/HCDE533/",
+    "relUrl": "/docs/HCDE533/"
   },"43": {
     "doc": "about",
     "title": "about",
@@ -278,7 +278,7 @@
     "doc": "posts",
     "title": "posts",
     "content": " ",
-    "url": "http://localhost:4000/docs/posts/posts/",
-    "relUrl": "/docs/posts/posts/"
+    "url": "http://localhost:4000/docs/posts/",
+    "relUrl": "/docs/posts/"
   }
 }
