@@ -54,6 +54,10 @@ So I flipped the inside out.
 
 ![top](../../../../../files/533_2/IMG_1971.JPG)
 
+Bonus cup holder assembly!
+
+![cup](../../../../../files/533_2/IMG_1988.JPG)
+
 
 Rhino file:
 
