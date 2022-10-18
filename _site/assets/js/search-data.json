@@ -275,30 +275,54 @@
     "url": "http://localhost:4000/docs/HCDE533/2022-10-10-assignment-1-rese/",
     "relUrl": "/docs/HCDE533/2022-10-10-assignment-1-rese/"
   },"46": {
+    "doc": "Assignment 2 - tetratrum",
+    "title": "Ideation",
+    "content": "I continue with the idea of making triangular surfaces and connectors that would construct tetrahedra. Then I learned that there two more polyhedra that are made of triangular surfaces - or deltahedra - than tetrahedron. They are the octahedron and the icosahedron. ",
+    "url": "http://localhost:4000/docs/HCDE533/2022-10-17-assignment-2-tetratrum/#ideation",
+    "relUrl": "/docs/HCDE533/2022-10-17-assignment-2-tetratrum/#ideation"
+  },"47": {
+    "doc": "Assignment 2 - tetratrum",
+    "title": "Modeling",
+    "content": "I used a slightly different method to press-fit adjascent pieces this time to avoid the trouble of adjusting the angle of the connector piece. The idea is that I truncated one vertex on a tetrahedron and make the three trapezoid sides flaps. For the fabrication part, these flaps are made by scoring the cardboard rather than cutting through it. A connector piece connects two flaps on adjascent surfaces. To save material, a circular connector is carved out of a triangular surface. To make the workflow of generating laser cut file parametric, I first define three parameters that can be played with - size of the triangle (Origin to vertex, which is the default parameter of parametric polygon in Grasshopper), radius of the center circular connector, and thickness of the cardboard. Luckily, Rhino generates polygons and circles from the origin, which is also the relative placement of these pieces. Then I ran through a series of Grasshopper definitions for the press-fit slits. The slits will be half as wide as the radius of the circle so that the trapizoid flaps and the circular connectors have the deepest insertion. The rectangle slits are polarly arrayed. After a series of trimming actions I got the outlines that needs to be cut through. The triangle is scored so it should be baked separatedly on another layer. There is an extra slider to make copies. ",
+    "url": "http://localhost:4000/docs/HCDE533/2022-10-17-assignment-2-tetratrum/#modeling",
+    "relUrl": "/docs/HCDE533/2022-10-17-assignment-2-tetratrum/#modeling"
+  },"48": {
+    "doc": "Assignment 2 - tetratrum",
+    "title": "Making",
+    "content": "I used a Trotec laser cutter to cut a cardboard I recycled from a package. Most laser cutters recognize colors for different cutting or engraving settings. I assigned a higher power and lower speed for the cut lines in black and lower power and higher speed for the folding lines in red. This time the cardboard is much flatter, making the cutting and engraving more uniform and precise. I started assembly and realized that I couldn’t close the icosahedron from the inside. So I flipped the inside out. Rhino file: . Cut path . Grasshopper . ",
+    "url": "http://localhost:4000/docs/HCDE533/2022-10-17-assignment-2-tetratrum/#making",
+    "relUrl": "/docs/HCDE533/2022-10-17-assignment-2-tetratrum/#making"
+  },"49": {
+    "doc": "Assignment 2 - tetratrum",
+    "title": "Assignment 2 - tetratrum",
+    "content": "Today we are making parametrically designed press-fit assembly using Rhino with the Grasshopper plugin! . ",
+    "url": "http://localhost:4000/docs/HCDE533/2022-10-17-assignment-2-tetratrum/",
+    "relUrl": "/docs/HCDE533/2022-10-17-assignment-2-tetratrum/"
+  },"50": {
     "doc": "HCDE533",
     "title": "HCDE533",
     "content": " ",
     "url": "http://localhost:4000/docs/HCDE533/",
     "relUrl": "/docs/HCDE533/"
-  },"47": {
+  },"51": {
     "doc": "about",
     "title": "about",
     "content": "Hi! I am Danli. I am a first-year PhD in HCDE, University of Washington. I work at the intersection of materials intelligence and natures capacity. You can find my research work here: . I’m learning how to use jekyll, which this website is built upon. ",
     "url": "http://localhost:4000/about/",
     "relUrl": "/about/"
-  },"48": {
+  },"52": {
     "doc": "contact",
     "title": "contact",
     "content": "e-mail: danlil at uw dot edu . ",
     "url": "http://localhost:4000/contact/",
     "relUrl": "/contact/"
-  },"49": {
+  },"53": {
     "doc": "home",
     "title": "home",
     "content": "Hi! This is Danli. This website is intended to showcase my progress in Prof. Nadya’s class, a special topic about digital fabrication in HCDE. I look forward to all the fun and creative discussions about to happen in this class. As a starter, I’m learning how to use Github and Jekyll. I hope by the end of this course I will be able to not only make things but also create things. ",
     "url": "http://localhost:4000/docs/",
     "relUrl": "/docs/"
-  },"50": {
+  },"54": {
     "doc": "posts",
     "title": "posts",
     "content": " ",
