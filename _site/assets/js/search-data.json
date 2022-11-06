@@ -307,7 +307,7 @@
   },"51": {
     "doc": "Assignment 3 - nestel",
     "title": "Nested object",
-    "content": "I continued with the traits of making tetrahedron-based shapes. I had to use support for the overhang. Printers can print overhangs support-free below certain angle. My impression is that if the new layer is touching the previous layer, there is a good chance it can hang in there. I checked the print preview of my model and the overhang structure is supposed to be printed in mid-air, so that’s not going to work. The two prints failed on different issue with the support. Removing the support destroys the small tetrahedron, so I got two nested tetrahedra. But anyway, here it is. Stupid TriangLe file: . nested tetrashell . ",
+    "content": "I continued with the traits of making tetrahedron-based shapes. I had to use support for the overhang. Printers can print overhangs support-free below certain angle. My impression is that if the new layer is touching the previous layer, there is a good chance it can hang in there. I checked the print preview of my model and the overhang structure is supposed to be printed in mid-air, so that’s not going to work. The two prints failed on different issue with the support. Removing the support destroys the small tetrahedron, so I got two nested tetrahedra. But anyway, here it is. Rhino file: . nested tetrashell . ",
     "url": "http://localhost:4000/docs/HCDE533/2022-10-24-assignment-3-nested/#nested-object",
     "relUrl": "/docs/HCDE533/2022-10-24-assignment-3-nested/#nested-object"
   },"52": {
@@ -317,30 +317,36 @@
     "url": "http://localhost:4000/docs/HCDE533/2022-10-24-assignment-3-nested/",
     "relUrl": "/docs/HCDE533/2022-10-24-assignment-3-nested/"
   },"53": {
+    "doc": "Assignment 4 - tipsy",
+    "title": "Assignment 4 - tipsy",
+    "content": "I was traveling and busy during the last 10 days and my creativity is drained. Still, I want my project to revolve around tetrahedron. I’m making a container in the shape of a tetrahedron. It’s harder than I thought since the edges are not perpendicular to each other. I created edges that will bite into each other using boolean difference and boolean union. I 3D-printed three sides and shrank them by 99.5% to accommodate tolerance. It’s not a perfect bite, and it won’t stand on its tip, hence the name ‘tipsy’. Rhino file: . tipsy . ",
+    "url": "http://localhost:4000/docs/HCDE533/2022-11-06-assignment-4-tipsy/",
+    "relUrl": "/docs/HCDE533/2022-11-06-assignment-4-tipsy/"
+  },"54": {
     "doc": "HCDE533",
     "title": "HCDE533",
     "content": " ",
     "url": "http://localhost:4000/docs/HCDE533/",
     "relUrl": "/docs/HCDE533/"
-  },"54": {
+  },"55": {
     "doc": "about",
     "title": "about",
     "content": "Hi! I am Danli. I am a first-year PhD in HCDE, University of Washington. I work at the intersection of materials intelligence and natures capacity. You can find my research work here: . I’m learning how to use jekyll, which this website is built upon. ",
     "url": "http://localhost:4000/about/",
     "relUrl": "/about/"
-  },"55": {
+  },"56": {
     "doc": "contact",
     "title": "contact",
     "content": "e-mail: danlil at uw dot edu . ",
     "url": "http://localhost:4000/contact/",
     "relUrl": "/contact/"
-  },"56": {
+  },"57": {
     "doc": "home",
     "title": "home",
     "content": "Hi! This is Danli. This website is intended to showcase my progress in Prof. Nadya’s class, a special topic about digital fabrication in HCDE. I look forward to all the fun and creative discussions about to happen in this class. As a starter, I’m learning how to use Github and Jekyll. I hope by the end of this course I will be able to not only make things but also create things. ",
     "url": "http://localhost:4000/docs/",
     "relUrl": "/docs/"
-  },"57": {
+  },"58": {
     "doc": "posts",
     "title": "posts",
     "content": " ",

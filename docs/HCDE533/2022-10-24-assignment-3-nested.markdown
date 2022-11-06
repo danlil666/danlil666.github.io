@@ -72,7 +72,7 @@ The two prints failed on different issue with the support. Removing the support 
 
 
 
-Stupid TriangLe file:
+Rhino file:
 
-[nested tetrashell](../../../../../files/533_2/tetratrum_24.3dm)
+[nested tetrashell](../../../../../files/533_3/assignment3.3dm)
 
