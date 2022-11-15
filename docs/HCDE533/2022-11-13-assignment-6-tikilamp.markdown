@@ -52,6 +52,12 @@ I did not actually considered how to fix the head onto the base. The head is jus
 Here it is.
 
 ![lamp](../../../../../files/533_6/IMG_2162.JPG)
+
+I'm going to cast the shoulders next week so I'm making the silicone mold for it.
+
+I didn't actually follow the workflow that would comply to the requirement of this task which is to make a two-part mold with registration points and an inlet. My workflow is more similar to [this Prusa tutorial](https://blog.prusa3d.com/the-beginners-guide-to-mold-making-and-casting_31561/). I designed my model in a way that the master model would not have any overhang. And I cast the mold around the master model inside a cardboard box I trimmed to be just about the right size.
+
+![mold4mold](../../../../../files/533_6/IMG_2164.JPG)
  
 
 All files:
