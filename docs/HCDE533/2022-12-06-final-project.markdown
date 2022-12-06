@@ -12,6 +12,20 @@ I'm recently into home-brewed beer and want to do more experimentation. However,
 
 For the final project to be finished in this class, I'm using digital fabrication techniques to make the hardware prototype.
 
+### skills
+
+To create my prototype, I use the following skills we learned this quarter:
+
+- Laser cutting
+
+- Rhino
+
+- CNC milling
+
+- 3D printing
+
+- Incorporating stock parts
+
 ## modeling
 
 I'm sticking to my plane to have modularized cap layers designed for different functionality. 
@@ -109,6 +123,12 @@ Now! Stack them up!
 I also modeled and 3D printed pipe fittings with SLA 3D printer.
 
 ![pipeFitting](../../../../../files/533_final/IMG_2329.JPG)
+
+For the wholesome of the system, I laser-cut a piece of acrylic to hold the microcontroller and breadboard together.
+
+![lasercut](../../../../../files/533_final/IMG_2330.JPG)
+
+### future work
 
 To actually run it, I will spend more time on writing the firmware for the microcontroller.
 
