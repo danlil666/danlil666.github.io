@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 8 - COMM week"
 date:   2021-11-23 10:09AM
-parent: "posts"
+parent: "MakingIt"
 ---
 
 This is the last assignment before the grand project. This week we are making a double-sided PCB that has a shared ground on the back and can communicate using serial port.

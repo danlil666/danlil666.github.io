@@ -2,7 +2,7 @@
 layout: post
 title:  "Final Project - Bioreactor"
 date:   2021-12-06 11:45
-parent: "HCDE533"
+parent: "DigitalFabrication"
 ---
 For final project, I'm building a micro-brewery with continuous flow!
 

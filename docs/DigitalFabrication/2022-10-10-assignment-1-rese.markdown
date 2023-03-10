@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 1 - RESE"
 date:   2021-10-11 9:19
-parent: "HCDE533"
+parent: "DigitalFabrication"
 ---
 Today we are making press-fit assembly with cardboard using lAsEr!
 

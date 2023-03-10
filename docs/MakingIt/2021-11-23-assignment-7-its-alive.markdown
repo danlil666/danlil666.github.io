@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 7 - It's Alive!"
 date:   2021-11-23 10:09AM
-parent: "posts"
+parent: "MakingIt"
 ---
 
 This week we are making machines! Well, not quite there yet, but a motor-driven mechanism that performs motion. Well, to some extent.

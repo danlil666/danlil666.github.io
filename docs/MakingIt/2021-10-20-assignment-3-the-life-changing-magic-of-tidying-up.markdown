@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 3 - The Life-Changing Magic of Tidying Up"
 date:   2021-10-20 10:53
-parent: "posts"
+parent: "MakingIt"
 ---
 There is no such thing as life-changing magic because hard work pays off.
 

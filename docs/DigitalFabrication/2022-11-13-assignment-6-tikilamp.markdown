@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 6 - tikilamp"
 date:   2021-11-13 16:14
-parent: "HCDE533"
+parent: "DigitalFabrication"
 ---
 I'm back with all my energy for fun stuff and I'm going to build a lamp.
 

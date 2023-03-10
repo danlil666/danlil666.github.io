@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 9 - Days of our lives"
 date:   2021-12-12 10:24AM
-parent: "posts"
+parent: "MakingIt"
 ---
 
 This is the documentation of my final project for HCDE548 MAKING IT! We made it!

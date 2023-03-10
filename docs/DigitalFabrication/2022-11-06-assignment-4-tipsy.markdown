@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 4 - tipsy"
 date:   2021-11-06 10:18
-parent: "HCDE533"
+parent: "DigitalFabrication"
 ---
 I was traveling and busy during the last 10 days and my creativity is drained. Still, I want my project to revolve around tetrahedron.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 6 part 2 - eat a bulb"
 date:   2021-11-21 22:54
-parent: "HCDE533"
+parent: "DigitalFabrication"
 ---
 I built a lamp last week, and I'm going to cast the base of that lamp.
 

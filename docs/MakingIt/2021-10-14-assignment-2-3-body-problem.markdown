@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 2 - The Three-Body Problem"
 date:   2021-10-14 10:05
-parent: "posts"
+parent: "MakingIt"
 ---
 Today we are making sensors and visualizing the sensor signal in Rhino by a Grasshopper add-on called Firefly.
 

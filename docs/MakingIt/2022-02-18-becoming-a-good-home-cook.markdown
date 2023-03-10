@@ -2,7 +2,7 @@
 layout: post
 title:  "becoming a good home cook"
 date:   2022-02-18 11:08PM
-parent: "posts"
+parent: "MakingIt"
 ---
 
 This is the documentation of my current progress on making smart cookware.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 3 - nestel"
 date:   2021-10-24 15:39
-parent: "HCDE533"
+parent: "DigitalFabrication"
 ---
 Today we are 3D printing!
 

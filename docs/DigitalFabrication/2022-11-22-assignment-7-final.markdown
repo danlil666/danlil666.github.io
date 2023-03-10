@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 7 - final project proposal"
 date:   2021-11-22 17:17
-parent: "HCDE533"
+parent: "DigitalFabrication"
 ---
 For final project, I'm building a micro-brewery with continuous flow!
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 2 - tetratrum"
 date:   2021-10-17 15:03
-parent: "HCDE533"
+parent: "DigitalFabrication"
 ---
 Today we are making parametrically designed press-fit assembly using Rhino with the Grasshopper plugin!
 

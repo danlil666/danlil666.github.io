@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 6 - Let's Go Ghostbusters!!"
 date:   2021-11-14 02:57PM
-parent: "posts"
+parent: "MakingIt"
 ---
 
 I never watched Ghostbusters.

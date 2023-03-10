@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 5 - tiki"
 date:   2021-11-07 20:18
-parent: "HCDE533"
+parent: "DigitalFabrication"
 ---
 I was traveling and busy last week and my creativity is drained. But let's get meshy and enjoy the extremely grumpy processing of meshes in Rhino.
 

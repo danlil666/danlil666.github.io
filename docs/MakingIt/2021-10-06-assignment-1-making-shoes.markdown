@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 1 - Making Shoes"
 date:   2021-10-06 23:57
-parent: "posts"
+parent: "MakingIt"
 ---
 Shoemaking has been a skill I wanted to learn in combination with leathercraft. To be exact, I meant something like this:
 

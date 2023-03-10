@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Digital Fabrication
+title: DigitalFabrication
 nav_order: 2
 has_children: true
 permalink:

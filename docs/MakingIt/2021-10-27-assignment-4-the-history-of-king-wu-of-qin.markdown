@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 4 - The History of King Wu of Qin"
 date:   2021-10-27 11:30PM
-parent: "posts"
+parent: "MakingIt"
 ---
 A brief history lesson of the reigning life of King Wu of Qin would walk you through the making process of this project. Hear me out.
 

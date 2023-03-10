@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 5 - Dig Deeper"
 date:   2021-11-03 10:08PM
-parent: "posts"
+parent: "MakingIt"
 ---
 This week we are taking a break from creative flow of design and fabrication. With some lessons learned, this assignment will document the use of the [Bantam Tools desktop PCB milling machine](https://www.bantamtools.com/pcb-milling-machine).
 
