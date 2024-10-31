@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<title>danli-luo.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+
+<body>
+
+<!-- Navigation placeholder -->
+<div id="nav-placeholder"></div>
+
+<!-- Include the navigation -->
+<script src="nav.js"></script>
+
+<!-- Main Content -->
+<div class="main-content">
+  <!-- Header -->
+  <header class="display-container content wide" style="max-width:2400px;" id="home">
+    <img class="image" src="assets/images/header.jpg" alt="header" width="100%" >
+    <div class="display-middle margin-top center">
+      <h1 class="xxlarge text-white"><span class="opacity-min"><img src="assets/images/logo.png" style="width:50%"></span> <span class="hide-small text-light-grey"></span></h1>
+    </div>
+  </header>
+
+  <div class="content-container">
+
+  <!-- About Section -->
+  <div class="container padding-32" id="about">
+    <h3 class="border-bottom border-light-grey padding-16">About</h3>
+    <div class="main-copy">
+  
+ <p>My research challenges the current paradigm where scientists are constrained by 
+  and serve the limitations of their tools. Instead, I envision machines that genuinely 
+  empower scientific discovery through valorization - recognizing, amplifying, and 
+  building upon the unique insights and expertise that researchers bring. My work 
+  explores how we can design systems that adapt to and enhance human scientific 
+  intuition, rather than forcing scientists to adapt to rigid machine protocols. </p>
+<p>Besides my academic role as a rogue materials scientist who makes digital fabrication 
+  tools, I am a craftsperson, a plant enthusiast, a BSAC sports diver, and a fun person. </p>
+
+  </div>
+</div>
+
+<div class="container padding-32" id="news">
+    <h3 class="border-bottom border-light-grey padding-16">News</h3>
+    <div class="main-copy">
+  <p>Oct 2024: Served as Student Volunteer Co-Chair at UIST 2024. Delighted to meet new friends and greet old friends!</p>
+  <p>Sep 2024: I just received the <a href="https://www.technologyreview.com/innovators-under-35/2024/" 
+    target="_blank">2024 MIT 35 innovator under 35</a> award!</p>
+  </div>
+</div>
+
+
+
+<!-- Project Section -->
+<div class="container padding-32" id="featured">
+  <h3 class="border-bottom border-light-grey padding-16">Featured</h3>
+
+  <div class="row-padding">
+
+    <div class="col l4 m6">
+      <div class="display-container">
+          <div class="display-topleft black padding">3DP+</div>
+          <a href="pages/fungibot/fungibot.html" style="display: block;">
+            <div class="image-wrapper">
+              <img src="pages/fungibot/thumbnail.jpg" class="square-image" >
+            </div>
+              <div><b>3D printed mycelium biocomposite</b></div>
+              <div>Danli Luo, Junchao Yang, Nadya Peek</div>
+          </a>
+          <small>We made a bio-welding composite from coffee grounds and mycelium. </small>
+      </div>
+  </div>
+
+  <div class="col l4 m6">
+    <div class="display-container">
+        <div class="display-topleft black padding">CHI 23</div>
+        <a href="pages/doufu/doufu.html" style="display: block;">
+          <div class="image-wrapper">
+            <img src="pages/doufu/thumbnail.jpg" class="square-image">
+          </div>
+            <div><b>Doufu, rice wine, and 面饼</b></div>
+            <div>Danli Luo, Daniela Rosner, Nadya Peek</div>
+        </a>
+        <small>We investigate how to support the connections between precision and cultural knowledge in cooking. </small>
+    </div>
+</div>
+
+<div class="col l4 m6">
+  <div class="display-container">
+      <div class="display-topleft black padding">UIST 22 Demo</div>
+      <a href="pages/beer/beer.html" style="display: block;">
+        <div class="image-wrapper">
+          <img src="pages/beer/teaser.gif" class="square-image" >
+        </div>
+          <div><b>Fabricatable Bioreactor</b></div>
+          <div>Danli Luo and Nadya Peek</div>
+      </a>
+      <small>We made a modular toolkit to support biological experimentation. </small>
+  </div>
+</div>
+    
+<div class="col l4 m6">
+  <div class="display-container">
+      <div class="display-topleft black padding">3DP+</div>
+      <a href="pages/template/template.html" style="display: block;">
+        <div class="image-wrapper">
+          <img src="pages/template/thumbnail.jpg" class="square-image">
+        </div>
+          <div><b>3D printed mycelium biocomposite</b></div>
+          <div>Danli Luo, Junchao Yang, Nadya Peek</div>
+      </a>
+      <small>We made a bio-welding composite from coffee grounds and mycelium. </small>
+  </div>
+</div>
+
+<div class="col l4 m6">
+  <div class="display-container">
+      <div class="display-topleft black padding">3DP+</div>
+      <a href="pages/template/template.html" style="display: block;">
+        <div class="image-wrapper">
+          <img src="pages/template/thumbnail.jpg" class="square-image" >
+        </div>
+          <div><b>3D printed mycelium biocomposite</b></div>
+          <div>Danli Luo, Junchao Yang, Nadya Peek</div>
+      </a>
+      <small>We made a bio-welding composite from coffee grounds and mycelium. </small>
+  </div>
+</div>
+
+
+
+  </div>
+</div>
+
+
+<!-- Fun Projects Section -->
+<div class="container padding-32" id="fun">
+  <h3 class="border-bottom border-light-grey padding-16">Fun Projects</h3>
+
+  <div class="row-padding" id="random-projects">
+    <!-- Projects will be inserted here by JavaScript -->
+  </div>
+</div>
+
+<script>
+  // Array of all your projects
+  const allProjects = [
+    {
+      title: "Project 1",
+      image: "pages/mycelium/thumbnail.jpg",
+      tag: "Tag1",
+      description: "Description 1",
+      link: "link1.html"
+    },
+    {
+      title: "Project 2",
+      image: "pages/mycelium/thumbnail.jpg",
+      tag: "Tag2",
+      description: "Description 2",
+      link: "link2.html"
+    },
+    {
+      title: "Project 3",
+      image: "pages/mycelium/thumbnail.jpg",
+      tag: "Tag3",
+      description: "Description 3",
+      link: "link2.html"
+    },
+    {
+      title: "Project 4",
+      image: "pages/mycelium/thumbnail.jpg",
+      tag: "Tag4",
+      description: "Description 4",
+      link: "link2.html"
+    },
+    // Add all your projects here
+  ];
+
+  // Function to shuffle array
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
+  // Get 3 random projects
+  const randomProjects = shuffleArray([...allProjects]).slice(0, 3);
+
+  // Insert into HTML
+
+  const container = document.getElementById('random-projects');
+  randomProjects.forEach(project => {
+    container.innerHTML += `
+  <div class="col l4 m6">
+    <a href="${project.link}" style="display: block;">
+      <div class="display-container">
+          <div class="display-topleft black padding">${project.tag}</div>
+          <div class="image-wrapper">
+            <img src="${project.image}" alt="${project.title}" class="square-image">
+          </div>
+              <div><b>${project.title}</b></div>
+          </a>
+          <div><small>${project.description}</small></div>
+      </div>
+  </div>
+    `;
+  });
+</script>
+<div class="button-container">
+  <a href="fun_projects.html" class="view-all-button">all</a>
+</div>
+
+
+
+
+
+
+
+<!-- Contact Section -->
+
+<div class="container padding-32" id="contact">
+  <h3 class="border-bottom border-light-grey padding-16">Contact</h3>
+  <div class="main-copy">
+<p>danlil [at] uw.edu</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="center black">
+  <img class="image" src="assets/images/lateMorningDubilee.jpg" alt="header" width="1500" height="800">
+<p>Powered by <a href="https://earth.google.com">earth</a></p>
+</footer>
+  
+  </body>
+  </html>
+
+
+

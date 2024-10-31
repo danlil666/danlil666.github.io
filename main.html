@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<title>Danli's Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+    font-family: "Lab Mono", monospace;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    min-height: 100vh;
+    font-size: 1rem;  /* Add this line to make all text bigger */
+  }
+
+  h1 {
+    font-size: 2rem;  /* Make heading even bigger */
+  }
+
+  p {
+    font-size: 1.2rem;  /* Make paragraphs bigger */
+    line-height: 1.3;   /* Add this for better spacing between lines */
+  }
+
+  .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+  }
+
+  .text-content {
+    flex: 1;
+  }
+
+  .image-content {
+    flex: 1;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .button-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+  }
+
+  button {
+    padding: 10px 40px;
+    font-family: "Lab Mono", monospace;
+    font-size: 16px;
+    border: 1px solid #000;
+    background: white;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #FFED66;
+  }
+
+  a {
+    color: #3a3b3c;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    background: #FFED66;
+    color: #000;
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+</style>
+<body>
+
+<div class="container">
+  <div class="text-content">
+    <h1>Hi! I'm Danli.</h1>
+    <p>I am a 4th year PhD at the <a href="#" target="_blank">Machine Agency</a> in <a href="#" target="_blank">HCDE</a>, University of Washington.</p>
+    
+    <p>My work involves building systems that facilitate scientific knowledge discovery among domain experts and HCI researchers.</p>
+    
+    <p>I focus on the intersection of <a href="#" target="_blank">materials processes</a> and <a href="#" target="_blank">bio-inspired design</a>.</p>
+    
+    <p>I occasionally document <a href="#" target="_blank">fun things</a> I create and I sporadically arrange snippets of everyday life into <a href="#" target="_blank">video stories</a>.</p>
+    
+    <p>Let's play.</p>
+
+    <div class="button-container">
+      <button onclick="window.location.href='index.html'">Go!</button>
+      <button onclick="window.location.href='bye.html'">No.</button>
+    </div>
+
+    <p style="margin-top: 40px">link to my CV - <a href="https://www.overleaf.com/read/sckhsfbbwjrq#9a95ac" target="_blank">📄</a></p>
+  </div>
+
+  <div class="image-content">
+    <img src="assets/images/profile.jpg" alt="Danli's profile photo">
+  </div>
+</div>
+
+</body>
+</html>
