@@ -3,158 +3,212 @@
 }
 
 @font-face {
-    font-family: "Lab Mono";
-    src: url("../assets/fonts/LabMono-Regular.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Lab Mono";
-    src: url("../assets/fonts/LabMono-RegularItalic.woff2") format("woff2");
-    font-weight: normal;
-    font-style: italic;
-  }
-  @font-face {
-    font-family: "Lab Mono";
-    src: url("../assets/fonts/LabMono-Bold.woff2") format("woff2");
-    font-weight: bold;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Lab Mono";
-    src: url("../assets/fonts/LabMono-BoldItalic.woff2") format("woff2");
-    font-weight: bold;
-    font-style: italic;
-  }
-  
-  html {
-    font-family: "Lab Mono", monospace;
-  }
-  
-  body {
-    color: #111111;
-    background-color: #ffffff;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-  }
+  font-family: "Lab Mono";
+  src: url("../assets/fonts/LabMono-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 
-  a {
-    color: #3a3b3c;
-    text-decoration: underline;
-  }
+@font-face {
+  font-family: "Lab Mono";
+  src: url("../assets/fonts/LabMono-RegularItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
 
-  a:hover {
-    background: #FFED66;
-    color: #000;
-    text-decoration: none;
-  }
-  
-  .content-wrapper {
-    width: var(--col-width);
-    padding-bottom: 4em;
-  }
-  
-  footer {
-    width: 100%;
-    background-color: #000;
-    text-align: center;
-    padding: 2em 0;
-    margin-top: auto;
-  }
-  
-  footer a {
-    display: inline-block;
-    color: #fff;
-    text-decoration: underline;
-    padding: 0.5em 1em;
-    transition: color 0.3s ease;
-  }
-  
-  footer a:hover {
-    color: #FFED66;
-  }
-  
-  .no-margin-section {
-    width: 100%;
-    max-width: calc(var(--col-width) - 2em);
-    align-self: center;
-  }
-  
-  .margin-section {
-    margin: 0 1em;
-  }
-  
-  .teaser {
-    width: 100%;
-  }
-  
-  .header {
-    display: flex;
-    flex-direction: column;
-    margin: 1em 0;
-  }
-  
-  .project-title {
-    font-weight: bold;
-    font-size: 2em;
-  }
-  
-  .project-subtitle {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #333333;
-    margin-top: 0.3em;
-  }
-  
-  .author-names {
-    font-size: 0.9em;
-    margin-top: 1em;
-  }
-  
-  .links {
-    display: flex;
-    gap: 0.5em;
-    margin-top: 1em;
-    /* font-style: italic; */
-    font-size: 0.75em;
-    flex-wrap: wrap;
-    color: #666666;
-  }
-  
-  .section-title {
-    margin: 2em 0 0.5em 0;
-    color: #333333;
-    font-size: 1em;
-    font-weight: bold;
-  }
-  
-  .abstract {
-    font-weight: normal;
-    color: #444444;
-    text-align: justify;
-    line-height: 1.4;
-  }
-  
-  .video-iframe {
-    width: 100%;
-    aspect-ratio: 16/9;
-    margin: 2em 0;
-  }
-  
-  .bibtex {
-    white-space: pre-wrap;
-    font-size: 0.9em;
-    color: #444444;
-    background-color: #f5f5f5;
-    padding: 1em;
-    border-radius: 4px;
-  }
+@font-face {
+  font-family: "Lab Mono";
+  src: url("../assets/fonts/LabMono-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
 
-  .image-wrapper {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-  }
+@font-face {
+  font-family: "Lab Mono";
+  src: url("../assets/fonts/LabMono-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+}
+
+html {
+  font-family: "Lab Mono", monospace;
+}
+
+body {
+  color: #111111;
+  background-color: #ffffff;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+a {
+  color: #3a3b3c;
+  text-decoration: underline;
+}
+
+a:hover {
+  background: #FFED66;
+  color: #000;
+  text-decoration: none;
+}
+
+.content-wrapper {
+  width: var(--col-width);
+  padding-bottom: 4em;
+}
+
+footer {
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+  padding: 2em 0;
+  margin-top: auto;
+}
+
+footer a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: underline;
+  padding: 0.5em 1em;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.no-margin-section {
+  width: 100%;
+  max-width: calc(var(--col-width) - 2em);
+  align-self: center;
+}
+
+.margin-section {
+  margin: 0 1em;
+}
+
+.teaser {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.project-subtitle {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333333;
+  margin-top: 0.3em;
+}
+
+.author-names {
+  font-size: 0.9em;
+  margin-top: 1em;
+}
+
+.links {
+  display: block;
+  gap: 0.5em;
+  margin-top: 1em;
+  /* font-style: italic; */
+  font-size: 0.75em;
+  /* flex-wrap: wrap; */
+  color: #666666;
+}
+
+.section-title {
+  margin: 2em 0 0.5em 0;
+  color: #333333;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.abstract {
+  font-weight: normal;
+  color: #444444;
+  text-align: justify;
+  line-height: 1.4;
+}
+
+.video-iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin: 2em 0;
+}
+
+.bibtex {
+  white-space: pre-wrap;
+  font-size: 0.9em;
+  color: #444444;
+  background-color: #f5f5f5;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+.image-display {
+  width: 100%;
+}
+
+.image-wrapper {
+  width: 100%;
+  position: relative;
+  padding-bottom: 100%; /* Creates a square aspect ratio */
+  overflow: hidden;
+}
+
+.square-image {
+  position: absolute; /* Changed from relative */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.col {
+  flex: 0 0 auto;
+  /* Don't grow or shrink */
+  padding: 0 0px;
+  margin-bottom: 16px;
+}
+
+
+.col.l3 {
+  width: 24.99999%;
+}
+
+.col.l4 {
+  width: 33.33333%;
+}
+
+.col-container {
+  position: relative;
+  padding: 1rem;
+}
+
+.row-padding {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -8px;  /* Compensate for padding */
+}
+
+.container {
+  padding: 0.01em 16px;
+}
+
+.display-container {
+  position: relative;
+  padding: 0.5rem;
+}
