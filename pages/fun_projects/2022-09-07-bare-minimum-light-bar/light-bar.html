@@ -1,63 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>[[PAGE TITLE]]</title>
-    <link rel="stylesheet" href="/pages/projects.css" />
-    <!-- <link rel="icon" href="../../assets/img/favicon.ico" type="image/x-icon"> -->
-  </head>
-  <body>
-    <div class="content-wrapper">
-        <img class="teaser" src="thumbnail.jpg" />
-      <section class="margin-section">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>bare minimum light bar</title>
+  <link rel="stylesheet" href="/pages/projects.css" />
+  <!-- <link rel="icon" href="../../assets/img/favicon.ico" type="image/x-icon"> -->
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <img class="teaser" src="thumbnail.png" />
+    <section class="margin-section">
       <div class="header">
-        <span class="project-title">[[PROJECT TITLE]]</span>
+        <span class="project-title">bare minimum light bar</span>
         <!-- <span class="project-subtitle"> [[PROJECT SUBTITLE]] </span> -->
-        <span class="author-names">[[DATE]]</span>
+        <span class="author-names">September 07, 2022</span>
 
       </div>
 
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-        laboriosam voluptate quia id repellat tenetur, consectetur repudiandae,
-        laudantium fuga corrupti debitis aspernatur tempora minus sit mollitia
-        perspiciatis assumenda. Aut omnis saepe nemo expedita ipsa sunt ex
-        facere sint quisquam! Fugit quos eaque doloremque impedit optio nostrum.
-        Nulla quis quae expedita, beatae, accusamus et excepturi necessitatibus,
-        at quas laboriosam sequi possimus sed cum illum quia? Iure ad,
-        asperiores at vitae nulla vel repellendus, possimus eum quia numquam
-        ipsum suscipit, nostrum similique eius autem aliquam facilis
-        exercitationem deleniti! Tenetur, ut nobis, optio nesciunt quod unde
-        facere qui est, sequi dolorum atque ullam quisquam architecto! Corrupti
-        excepturi quod veritatis doloribus repudiandae provident fugiat
-        reiciendis exercitationem. Commodi alias odit voluptates suscipit, et
-        inventore officiis nesciunt vel iure, nulla nemo aperiam? Velit
-        consequatur molestiae nihil facilis ea incidunt nobis alias sed
-        explicabo magni, mollitia delectus fugit blanditiis tempore earum. At
-        necessitatibus laborum molestias sed consequuntur.
+        I got a new monitor last Black Friday. A friend recommended getting a light bar that hangs above the monitor. It
+        looks like another chance to utilize my circuit making skills.
       </p>
-      <h3 class="section-title">Note</h3>
-      <small>
-        some note
-      </small>
-    
-    <iframe
-      class="video-iframe"
-      src="https://www.youtube.com/embed/M64voQEIY9k?si=ndwh5cFSXuFxjzSN"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen>
-    </iframe>
+      <p>
+        I’ve been planning and prototyping for a while actually. First I was trying to figure out how bright I want it
+        to be. My current desk lamp uses one of those fist-sized bulb that is labeled 800 lumens. I felt it was a
+        comfortable reading luminosity. To reach that level, the LEDs I’ve used and seen is not enough as they are
+        usually rated as a few dozens of lumens. This light bar should be as compact as possible using the brightest
+        LEDs.
+      </p>
+      <p>
+        I have a bike flash light. It only has one LED as light source when I look into its head. I searched ‘flash
+        light LED’ on the internet and found out about this series of <a
+          href="https://www.digikey.com/en/products/filter/led-lighting-white/124?s=N4IgTCBcDaIBoAUAyBBA6gFQLQAYe73xAF0BfIA">ultra-bright
+          LEDs on Digikey</a>. I ordered some that has a comfortable temperature for my reading habit. I also
+        learned that they have a line that has the range of wavelength suitable for plant growth. This will be my next
+        grand plan, a plant plan!
+      </p>
+      <p>
+        I built the circuit in KiCAD with one LED first. It’s my first time adding surface-mount transistors to my
+        circuit and soldering such a narrow footprint on the LED. I ended up making two versions of this debugging board
+        to figure out these two problems. For the second problem, I find using this kind of <a
+          href="https://www.digikey.com/en/products/filter/led-lighting-white/124?s=N4IgTCBcDaIBoAUAyBBA6gFQLQAYe73xAF0BfIA">low-temperature
+          soldering
+          paste</a> helpful. And the trick is that since it requires such a low temperature to reflow, heating the
+        footprint
+        on one leg of the LED will generate enough heat to reflow the paste on the other leg as well.
+      </p>
+      <img class="image-display" src="lightbar.gif" />
+      <p>
+        I made a acrylic base for it for a floating vibe. It lacks certain degrees of freedom in adjusting its position
+        and actually ended up hurting my eyes when I sat down.
+      </p>
+      <img class="image-display" src="IMG_0370.JPG" />
+      <p>
+        One thing I didn’t take into consideration is the power limit of resistors. I burned the current limiting
+        resistor and had to order high-power resistors. The copper trace was destroyed too, so I had to be creative.
+      </p>
+      <img class="image-display" src="IMG_1651.JPG" />
+      <small>Inspired by Mohit Bhoite: http://www.bhoite.com/sculptures/</small>
 
-    <h3 class="section-title">random</h3>
-<div class="row-padding" id="random-projects">
-  <!-- Projects will be inserted here by JavaScript -->
-</div>
-<!-- <script src="../../../randomize.js"></script> -->
-<script type="module" src="/js/randomize.js"></script>
+      <p>And one day I just found the perfect base for this light bar.</p>
+      <img class="image-display" src="IMG_1719.JPG" />
+      <p>Now it sits right above my monitor.</p>
+      
+      
+      <h3 class="section-title">random</h3>
+      <div class="row-padding" id="random-projects">
+        <!-- Projects will be inserted here by JavaScript -->
+      </div>
+      <!-- <script src="../../../randomize.js"></script> -->
+      <script type="module" src="/js/randomize.js"></script>
 
-</section>
+    </section>
     <!-- Footer -->
     <footer class="center padding-32">
       <a class="black" href="../../../main.html">back to home</a>

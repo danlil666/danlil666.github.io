@@ -13,24 +13,27 @@ export const allProjects = [
         link: "/pages/fun_projects/2022-09-07-bare-minimum-light-bar/light-bar.html"
     },
     {
-        title: "Project 3",
-        image: "/pages/fun_projects/template/thumbnail.jpg",
-        tag: "Tag3",
-        description: "Description 3",
-        link: "link2.html"
+        title: "冰墩墩 makeathon",
+        image: "/pages/fun_projects/2022-03-14-bing-dwen-dwen-makeathon/dwen.jpg",
+        description: "With the spirit of celebrating the 2022 Winter Olympic Games held in my hometown, I’m indulged in making Bing Dwen Dwen swag.",
+        link: "/pages/fun_projects/2022-03-14-bing-dwen-dwen-makeathon/bing-dwen-dwen-makeathon.html"
     },
     {
-        title: "Project 4",
-        image: "/pages/fun_projects/template/thumbnail.jpg",
-        tag: "Tag4",
-        description: "Description 4",
-        link: "link2.html"
+        title: "wordclock",
+        image: "/pages/fun_projects/2022-01-11-wordclock/wordClock.jpg",
+        description: "It is a word clock, but not so accurately reporting time as it only display time in quarters.",
+        link: "/pages/fun_projects/2022-01-11-wordclock/wordClock.html"
     },
     {
-        title: "Project 5",
-        image: "/pages/fun_projects/template/thumbnail.jpg",
-        tag: "Tag5",
-        description: "Description 5",
-        link: "link5.html"
+        title: "#makingit",
+        image: "/pages/fun_projects/2021-11-06-makingit/thumbnail.jpg",
+        description: "A presentable product from me after a teachable failure of making unrealistically sized furniture.",
+        link: "/pages/fun_projects/2021-11-06-makingit/makingit.html"
+    },
+    {
+        title: "project orange",
+        image: "/pages/fun_projects/2020-11-03-project-orange/thumbnail.png",
+        description: "I acquired an old bike made in the 70’s and renovated it",
+        link: "/pages/fun_projects/2020-11-03-project-orange/project-orange.html"
     }
 ];
