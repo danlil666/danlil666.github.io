@@ -1,6 +1,12 @@
 // projects-data.js
 export const allProjects = [
     {
+        title: "postcards",
+        image: "/pages/fun_projects/2024-11-25-postcards/thumbnail.jpg",
+        description: "I made some postcards by an Axidraw plotter.",
+        link: "/pages/fun_projects/2024-11-25-postcards/postcards.html"
+    },
+    {
         title: "leathercraft in september",
         image: "/pages/fun_projects/2023-09-15-leathercraft-in-september/thumbnail.jpg",
         description: "I started making leather goods in 2015. It's been a while since I last touched my tools. Now I need a gift idea for a male person so I decided that a leather wallet is a good idea",
@@ -33,7 +39,7 @@ export const allProjects = [
     {
         title: "project orange",
         image: "/pages/fun_projects/2020-11-03-project-orange/thumbnail.png",
-        description: "I acquired an old bike made in the 70’s and renovated it",
+        description: "I acquired an old bike made in the 70’s and renovated it.",
         link: "/pages/fun_projects/2020-11-03-project-orange/project-orange.html"
     }
 ];
