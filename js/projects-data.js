@@ -26,9 +26,9 @@ export const allProjects = [
     },
     {
         title: "wordclock",
-        image: "/pages/fun_projects/2022-01-11-wordclock/wordClock.jpg",
+        image: "/pages/fun_projects/2022-01-11-wordclock/wordclock.jpg",
         description: "It is a word clock, but not so accurately reporting time as it only display time in quarters.",
-        link: "/pages/fun_projects/2022-01-11-wordclock/wordClock.html"
+        link: "/pages/fun_projects/2022-01-11-wordclock/wordclock.html"
     },
     {
         title: "#makingit",
