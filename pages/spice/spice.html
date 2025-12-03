@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SPICE</title>
+  <link rel="stylesheet" href="../projects.css" />
+  <!-- <link rel="icon" href="../../assets/img/favicon.ico" type="image/x-icon"> -->
+</head>
+
+<body>
+  <div class="content-wrapper">
+
+    <img class="teaser" src="teaser.jpg" />
+
+    <section class="margin-section">
+      <div class="header">
+        <span class="project-title">SPICE: From Piping to Printing</span>
+        <span class="project-subtitle">Making 3D Food Printing Feel More Like Actual Cooking</span>
+        <span class="author-names">Danli Luo, Wade Ingram, Andreea Danielescu</span>
+        <div class="links">
+          <span>Published at </span>
+          <a href="https://doi.org/10.1145/3731459.3773322" target="_blank" rel="noopener noreferrer">
+            TEI 2026
+          </a>
+        </div>
+      </div>
+
+      <h3 class="section-title">Abstract</h3>
+      <p class="abstract">
+        Current 3D food printing systems impose engineering paradigms onto culinary practice, requiring users to design 
+        food as geometric models and slice them into discrete layers. This approach fundamentally misunderstands how humans 
+        create food – through continuous cooking actions like piping, filling, and spreading that encode centuries of 
+        embodied knowledge. We present SPICE (Smart Production of Individualized Culinary Essentials), a multi-material 
+        3D printing system that reimagines food fabrication through action-oriented path planning derived from traditional 
+        cooking techniques.
+      </p>
+
+      <p>I am always passionate about food and technology. I always pay extra attention to how traditional knowledge 
+        transfers to computational controls. In this work, I reflect on people actually handle tools in the kitchen. 
+        Existing systems treat food like plastic parts. You design a 3D model, slice it into layers, and print. But that's 
+        not how people cook.</p>
+
+      <img class="image-display" src="workflow.jpg" />
+
+      <p>When you pipe frosting on a cake, you're not thinking about layers. You're making continuous gestures like spirals, 
+        swirls, smooth motions. When you stuff dumplings, you fill them in one motion, not layer by layer. So I built 
+        SPICE to work the way cooking actually works.</p>
+
+        <img class="image-display" src="actions.jpg" />
+
+        <p>I set up a <a href="https://jubilee3d.com/index.php?title=Main_Page" target="_blank" rel="noopener noreferrer">Jubilee</a> 
+        3D printer with four syringe extruders that can swap between different ingredients. Then I 
+        wrote code that translates selected cooking primitives (trace, fill, drop, stuff, move) into continuous toolpaths. Instead of 
+        slicing models, you can program gestures.</p>
+
+        <p>I was inspired by the FRIENDS episode "The One With All The Cheesecakes" where Rachel and Chandler ate cheesecake 
+        on the hallway floor. That scene always stuck with me—something about how irresistible a good cheesecake is.</p>
+
+        <img class="image-display" src="friends_cheesecake.jpg" />
+
+        <p>So I adapted their recipe and 3D printed it on Jubilee. The system creates a graham cracker crust, fills it with 
+        cream cheese custard, and then embeds fruit swirls. 
+        The swirl is programmed as a continuous 3D motion and can be adjusted by changing a multiplier to enhance the flavor.</p>
+
+        <img class="image-display" src="cheesecake.jpg" />
+        <img class="image-display" src="swirl.gif" />
+
+      <p>It turns out when you design computational tools around how people actually do things, rather than forcing them 
+        to think like engineers, the tools work better. And you get to eat cheesecake.</p>
+
+      <h3 class="section-title">Bibtex</h3>
+      <pre class="bibtex">
+@inproceedings{luo2026piping,
+  title={From Piping to Printing: An Action-Based Approach to Computational Food Fabrication},
+  author={Luo, Danli and Ingram, Wade and Danielescu, Andreea},
+  booktitle={Twentieth International Conference on Tangible, Embedded, and Embodied Interaction},
+  series={TEI '26},
+  year={2026},
+  publisher={ACM},
+  address={New York, NY, USA},
+  pages={1--15},
+  doi={10.1145/3731459.3773322}
+}
+</pre>
+    </section>
+
+    <!-- Footer -->
+    <footer class="center black padding-32">
+      <a class="black" href="../../main.html#featured">back to home</a>
+    </footer>
+
+  </div>
+</body>
+
+</html>
