@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News</title>
+  <link rel="stylesheet" href="../projects.css" />
+  <link rel="icon" href="../../assets/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <section class="margin-section">
+      <div class="header">
+        <span class="project-title">News</span>
+      </div>
+      <div id="news-list-full"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="center black padding-32">
+      <a class="black" href="../../main.html#featured">back to home</a>
+
+    </footer>
+  </div>
+
+  <script type="module">
+    import { newsItems } from '/js/news-data.js';
+    const container = document.getElementById('news-list-full');
+    newsItems.forEach(item => {
+      container.innerHTML += `<div class="news-item"><span class="news-date">${item.date}</span><span>${item.html}</span></div>`;
+    });
+  </script>
+</body>
+
+</html>

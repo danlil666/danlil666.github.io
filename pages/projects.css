@@ -157,6 +157,9 @@ footer a:hover {
   border-radius: 4px;
 }
 
+.news-item { display: grid; grid-template-columns: 7em 1fr; gap: 0em; margin: 0; padding: 0; line-height: 1.2; }
+.news-date { color: #999; font-weight: normal; }
+
 .image-display {
   width: 100%;
 }

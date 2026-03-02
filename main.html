@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
-
+<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 <body>
 
@@ -44,18 +45,20 @@
   <div class="content-container">
 
 <!-- News Section -->
+<style>
+  .news-item { display: grid; grid-template-columns: 7em 1fr; gap: 1em; margin: 0; padding: 0; line-height: 1.6; }
+  .news-date { color: #999; font-weight: normal; }
+</style>
 <div class="container padding-32" id="news">
     <h3 class="border-bottom border-light-grey padding-16">News</h3>
     <div class="main-copy">
-  <p>Oct 2025: I'm going to give a talk at the Olympic Peninsula Fungi Festival in Port Angeles, Washington.</p>
-  <p>Sep 2025: Attending UIST 2025 in Busan, Korea as Student Volunteer Co-Chair and presenting my WIP thesis. See you there!</p>
-  <p>Sep 2025: I'm booked for Are You Smarter Than A Comedian, a local comedy game show in Seattle.</p>
-
-  <p>Oct 2024: Served as Student Volunteer Co-Chair at UIST 2024. Delighted to meet new friends and greet old friends!</p>
-  <p>Sep 2024: I just received the <a href="https://www.technologyreview.com/innovators-under-35/2024/" 
-    target="_blank">2024 MIT 35 innovator under 35</a> award!</p>
-  </div>
+      <div id="news-list"></div>
+    </div>
 </div>
+<div class="button-container">
+  <a href="pages/news/news.html" class="view-all-button">more...</a>
+</div>
+<script type="module" src="/js/news-render.js"></script>
 
 
 
@@ -69,12 +72,13 @@
 
       <div class="col l4 m6">
     <div class="display-container">
-        <div class="display-topleft black padding">TEI 26</div>
+        <div class="display-topleft black padding"> <i class="fa-solid fa-trophy"></i> TEI 26 </div>
         <a href="pages/spice/spice.html" style="display: block;">
           <div class="image-wrapper">
             <img src="pages/spice/teaser.jpg" class="square-image">
           </div>
-            <div><b>From Piping to Printing</b></div>
+            
+            <div> <b>From Piping to Printing</b> </div>
             <div>Danli Luo, Wade Ingram, Andreea Danielescu</div>
         </a>
         <small>We made 3D food printing feel more like actual cooking using action-oriented path planning. </small>
